@@ -25,4 +25,7 @@ public class EmployeeManager {
         return employees;
     }
 
+    public void addEmployee(Employee employee){
+        employees.getEmployees().add(employee);
+    }
 }
