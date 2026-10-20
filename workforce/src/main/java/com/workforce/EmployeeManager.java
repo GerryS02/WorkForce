@@ -9,13 +9,13 @@ public class EmployeeManager {
     public EmployeeManager(){
         List<Employee> employeeList = new ArrayList<>();
 
-        employeeList.add(new Employee("Amrit", "Mann", 
+        employeeList.add(new Employee(1, "Amrit", "Mann", 
                                         "amrit.mann@email.com", "Teacher"));
         
-        employeeList.add(new Employee("Gurpreet", "Singh", 
+        employeeList.add(new Employee(2, "Gurpreet", "Singh", 
                                         "gurpreet.singh@email.com", "Coordinator"));
         
-        employeeList.add(new Employee("Priya", "Rani", 
+        employeeList.add(new Employee(3, "Priya", "Rani", 
                                         "priya.rani@email.com", "Substitute Teacher"));
         
         employees = new Employees(employeeList);
